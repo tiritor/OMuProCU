@@ -12,7 +12,7 @@ As interface to use the Tofino 1 chip, the proposed [Open-Tofino Code](https://g
 
 It consists of the following parts:
 
-- [OMuProCU-core](https://github.com/tiritor/OMuProCU)
+- [OMuProCU-core](https://github.com/tiritor/OMuProCU-core)
 - [OMuProCU-utils](https://github.com/tiritor/OMuProCU-utils)
 - [OMuProCU-experiments](https://github.com/tiritor/OMuProCU-experiments)
 - [TIF-experiments](https://github.com/tiritor/TIF-Experiments)
