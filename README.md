@@ -65,6 +65,7 @@ The OMuProCU core consists of different microservices:
 - [NOS Updater](#nos-updater-structure-nos-updater)
 - [In-Network Updater](#in-network-updater)
 - [TIF Updater](#tif-updater)
+- [Rules Updater](#rules-updater)
 
 Also, there are some modules which are used from the [OMuProCU-utils](https://github.com/tiritor/OMuProCU-utils) package like:
 
