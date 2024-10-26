@@ -11,7 +11,7 @@ This repository contains
 
 - **the implementation of the complete framework** and its evaluation for the proposed paper [```Low Impact Tenant Code Updates on Multi-tenant Programmable Switches```](https://ieeexplore.ieee.org/abstract/document/10327866).
 -  **a management plane** which is presented in [```Orchestrating Multi-Tenant Code Updates Across Multiple Programmable Switches```](https://ieeexplore.ieee.org/document/10575368)!
-- **a resilent orchestration approach** including a rules updater in the proposed (and *newest*) paper ```Resilient Multi-Tenant Code Updates for Adaptive Network State Changes```
+- **a resilent orchestration approach** including a rules updater and an example UDP application header in the proposed (and *newest*) paper ```Resilient Multi-Tenant Network Programmability for Adaptive Service Placement```
 
 As interface to use the Tofino 1 chip, the proposed [Open-Tofino Code](https://github.com/barefootnetworks/Open-Tofino) is used. 
 
@@ -37,6 +37,7 @@ Both are implementing two accelerated tenant example CNF for different tenants.
 ### MD-TDC Manifests
 
 For orchestrating over multiple devices, the manifest is enhanced to support multiple device descriptions which can be seen in [MD-TDC-1.yaml](https://github.com/tiritor/MD-OMuProCU/blob/main/MD-TDC-1.yaml)
+For some experiments, the [MD-TDC-Ping.yaml](https://github.com/tiritor/MD-OMuProCU/blob/main/mdtdc-files/MD-TDC-Ping.yaml) is used.
 
 ## Experiment Setup for Newest Paper
 
